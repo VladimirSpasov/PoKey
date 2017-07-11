@@ -11,8 +11,6 @@ import PokemonKit
 import AlamofireImage
 import Charts
 
-import NVActivityIndicatorView
-
 import expanding_collection 
 
 class PokemonViewController: ExpandingViewController {
