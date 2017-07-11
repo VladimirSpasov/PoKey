@@ -1,0 +1,6 @@
+framework module Pods_PoKeyKeyboard {
+  umbrella header "Pods-PoKeyKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

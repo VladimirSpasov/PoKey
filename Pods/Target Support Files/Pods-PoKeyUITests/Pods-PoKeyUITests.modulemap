@@ -1,0 +1,6 @@
+framework module Pods_PoKeyUITests {
+  umbrella header "Pods-PoKeyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

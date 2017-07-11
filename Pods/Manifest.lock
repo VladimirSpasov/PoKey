@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - expanding-collection (1.0.4)
+  - ObjectMapper (2.2.7)
+  - PokemonKit (2.0.1):
+    - Alamofire (~> 4.2)
+    - AlamofireObjectMapper (~> 4.0)
+    - PromiseKit (~> 4.0)
+  - PromiseKit (4.2.2):
+    - PromiseKit/Foundation (= 4.2.2)
+    - PromiseKit/QuartzCore (= 4.2.2)
+    - PromiseKit/UIKit (= 4.2.2)
+  - PromiseKit/CorePromise (4.2.2)
+  - PromiseKit/Foundation (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.2):
+    - PromiseKit/CorePromise
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - Charts
+  - expanding-collection (~> 1.0.3)
+  - PokemonKit (from `./`)
+  - SnapKit
+
+EXTERNAL SOURCES:
+  PokemonKit:
+    :path: ./
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  expanding-collection: be78b5822d7382d3da02b52d52273f4661567a64
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+  PokemonKit: 6533014b16ba3adaa76857788a68391bf1f200a7
+  PromiseKit: 00e8886881f151c7e573d06b437915b0bb2970ec
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: fe5d8bb8438bce845de72fd62d27f74d72f7df02
+
+COCOAPODS: 1.1.1

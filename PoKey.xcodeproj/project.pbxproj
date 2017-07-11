@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F42684DCDB332C1D09564B5 /* Pods_PoKeyKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C584EB72A56E96687C91098 /* Pods_PoKeyKeyboard.framework */; };
+		3D2411BC1F14602600A84AF9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411A81F14602600A84AF9 /* Images.swift */; };
+		3D2411BD1F14602600A84AF9 /* CollectionViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411AB1F14602600A84AF9 /* CollectionViewHelper.swift */; };
+		3D2411BE1F14602600A84AF9 /* PokemonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411AC1F14602600A84AF9 /* PokemonDataSource.swift */; };
+		3D2411BF1F14602600A84AF9 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411AE1F14602600A84AF9 /* StoryboardHelper.swift */; };
+		3D2411C01F14602600A84AF9 /* PokemonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411B11F14602600A84AF9 /* PokemonTableViewController.swift */; };
+		3D2411C11F14602600A84AF9 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411B41F14602600A84AF9 /* PokemonCollectionViewCell.swift */; };
+		3D2411C21F14602600A84AF9 /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2411B51F14602600A84AF9 /* PokemonCollectionViewCell.xib */; };
+		3D2411C31F14602600A84AF9 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411B61F14602600A84AF9 /* PokemonViewController.swift */; };
+		3D2411C41F14602600A84AF9 /* AnimationBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411B91F14602600A84AF9 /* AnimationBarButton.swift */; };
+		3D2411C51F14602600A84AF9 /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411BB1F14602600A84AF9 /* Rotatable.swift */; };
+		3D2411C61F1460AF00A84AF9 /* PokemonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2411AC1F14602600A84AF9 /* PokemonDataSource.swift */; };
+		3D26C2671F10061D001942ED /* PokemonCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26C2661F10061D001942ED /* PokemonCollectionHeader.swift */; };
+		3D28C7B21F14DAD8001E2FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE98E7A1F0CE44200AD70A1 /* Assets.xcassets */; };
+		3D3106D21F0ECD87001BADA6 /* PokemonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3106D11F0ECD87001BADA6 /* PokemonCollectionView.swift */; };
+		3D3663841F0EDECB007EE5F3 /* PokemonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3663831F0EDECB007EE5F3 /* PokemonCollectionCell.swift */; };
+		3DA468591F0E2B7700EA56F9 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA468581F0E2B7700EA56F9 /* KeyboardViewController.swift */; };
+		3DA4685D1F0E2B7700EA56F9 /* PoKeyKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DA468561F0E2B7700EA56F9 /* PoKeyKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DE98E741F0CE44200AD70A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE98E731F0CE44200AD70A1 /* AppDelegate.swift */; };
+		3DE98E791F0CE44200AD70A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE98E771F0CE44200AD70A1 /* Main.storyboard */; };
+		3DE98E7B1F0CE44200AD70A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE98E7A1F0CE44200AD70A1 /* Assets.xcassets */; };
+		3DE98E7E1F0CE44200AD70A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE98E7C1F0CE44200AD70A1 /* LaunchScreen.storyboard */; };
+		3DE98E891F0CE44200AD70A1 /* PoKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE98E881F0CE44200AD70A1 /* PoKeyTests.swift */; };
+		3DE98E941F0CE44200AD70A1 /* PoKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE98E931F0CE44200AD70A1 /* PoKeyUITests.swift */; };
+		3DFC47E81F150B9E00C02E0B /* Hack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC47E71F150B9E00C02E0B /* Hack.swift */; };
+		668D009B013B7AE96C6F5083 /* Pods_PoKeyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F4C816B181222048E6B6EF /* Pods_PoKeyTests.framework */; };
+		7469E35E71223CA1973269FF /* Pods_PoKeyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143D7A9A8839A21F9A3CA62E /* Pods_PoKeyUITests.framework */; };
+		EF7BCBC3D2C44A86C00EDF91 /* Pods_PoKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D6A623B53AA74F468FD108 /* Pods_PoKey.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA4685B1F0E2B7700EA56F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE98E681F0CE44200AD70A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA468551F0E2B7700EA56F9;
+			remoteInfo = PoKeyKeyboard;
+		};
+		3DE98E851F0CE44200AD70A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE98E681F0CE44200AD70A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE98E6F1F0CE44200AD70A1;
+			remoteInfo = PoKey;
+		};
+		3DE98E901F0CE44200AD70A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE98E681F0CE44200AD70A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE98E6F1F0CE44200AD70A1;
+			remoteInfo = PoKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DA468611F0E2B7700EA56F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DA4685D1F0E2B7700EA56F9 /* PoKeyKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08DBE579B096AC2F6829594C /* Pods-PoKeyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyTests/Pods-PoKeyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		143D7A9A8839A21F9A3CA62E /* Pods_PoKeyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoKeyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D6A623B53AA74F468FD108 /* Pods_PoKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2411A81F14602600A84AF9 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		3D2411AB1F14602600A84AF9 /* CollectionViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHelper.swift; sourceTree = "<group>"; };
+		3D2411AC1F14602600A84AF9 /* PokemonDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonDataSource.swift; path = PoKey/Helpers/PokemonDataSource.swift; sourceTree = "<group>"; };
+		3D2411AE1F14602600A84AF9 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		3D2411B11F14602600A84AF9 /* PokemonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonTableViewController.swift; sourceTree = "<group>"; };
+		3D2411B41F14602600A84AF9 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D2411B51F14602600A84AF9 /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
+		3D2411B61F14602600A84AF9 /* PokemonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		3D2411B91F14602600A84AF9 /* AnimationBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationBarButton.swift; sourceTree = "<group>"; };
+		3D2411BB1F14602600A84AF9 /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotatable.swift; sourceTree = "<group>"; };
+		3D26C2661F10061D001942ED /* PokemonCollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionHeader.swift; sourceTree = "<group>"; };
+		3D3106D11F0ECD87001BADA6 /* PokemonCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionView.swift; sourceTree = "<group>"; };
+		3D3663831F0EDECB007EE5F3 /* PokemonCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonCollectionCell.swift; sourceTree = "<group>"; };
+		3DA468511F0E264400EA56F9 /* PoKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoKey.entitlements; sourceTree = "<group>"; };
+		3DA468561F0E2B7700EA56F9 /* PoKeyKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PoKeyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA468581F0E2B7700EA56F9 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		3DA4685A1F0E2B7700EA56F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA468621F0E2BA400EA56F9 /* PoKeyKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoKeyKeyboard.entitlements; sourceTree = "<group>"; };
+		3DE98E701F0CE44200AD70A1 /* PoKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE98E731F0CE44200AD70A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DE98E781F0CE44200AD70A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DE98E7A1F0CE44200AD70A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PoKey/Assets.xcassets; sourceTree = "<group>"; };
+		3DE98E7D1F0CE44200AD70A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DE98E7F1F0CE44200AD70A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE98E841F0CE44200AD70A1 /* PoKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE98E881F0CE44200AD70A1 /* PoKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoKeyTests.swift; sourceTree = "<group>"; };
+		3DE98E8A1F0CE44200AD70A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE98E8F1F0CE44200AD70A1 /* PoKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE98E931F0CE44200AD70A1 /* PoKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoKeyUITests.swift; sourceTree = "<group>"; };
+		3DE98E951F0CE44200AD70A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC47E71F150B9E00C02E0B /* Hack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hack.swift; sourceTree = "<group>"; };
+		56BFE6921BD7B75A7A9C582E /* Pods-PoKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoKey/Pods-PoKey.debug.xcconfig"; sourceTree = "<group>"; };
+		5C584EB72A56E96687C91098 /* Pods_PoKeyKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoKeyKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F07A58E30689192BA47D186 /* Pods-PoKeyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyKeyboard/Pods-PoKeyKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		66F4C816B181222048E6B6EF /* Pods_PoKeyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoKeyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A024511F3396400027294C5A /* Pods-PoKeyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyUITests/Pods-PoKeyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B15A14E8AE8527F337815992 /* Pods-PoKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKey.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoKey/Pods-PoKey.release.xcconfig"; sourceTree = "<group>"; };
+		B1C76506635AEFE5DF6922DE /* Pods-PoKeyKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyKeyboard/Pods-PoKeyKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E29667EEAADDFAF48BAF06 /* Pods-PoKeyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyUITests/Pods-PoKeyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F60BB9A5A77EBD2419DDC1FB /* Pods-PoKeyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoKeyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoKeyTests/Pods-PoKeyTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA468531F0E2B7700EA56F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F42684DCDB332C1D09564B5 /* Pods_PoKeyKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E6D1F0CE44200AD70A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7BCBC3D2C44A86C00EDF91 /* Pods_PoKey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E811F0CE44200AD70A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D009B013B7AE96C6F5083 /* Pods_PoKeyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E8C1F0CE44200AD70A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7469E35E71223CA1973269FF /* Pods_PoKeyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085BE659A8819AB7B7BED48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D6A623B53AA74F468FD108 /* Pods_PoKey.framework */,
+				66F4C816B181222048E6B6EF /* Pods_PoKeyTests.framework */,
+				143D7A9A8839A21F9A3CA62E /* Pods_PoKeyUITests.framework */,
+				5C584EB72A56E96687C91098 /* Pods_PoKeyKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2411A71F14602600A84AF9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411A81F14602600A84AF9 /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3D2411A91F14602600A84AF9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411AA1F14602600A84AF9 /* CollectionViewHelper */,
+				3D2411AD1F14602600A84AF9 /* StoryboardHelper */,
+				3DFC47E71F150B9E00C02E0B /* Hack.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3D2411AA1F14602600A84AF9 /* CollectionViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411AB1F14602600A84AF9 /* CollectionViewHelper.swift */,
+			);
+			path = CollectionViewHelper;
+			sourceTree = "<group>";
+		};
+		3D2411AD1F14602600A84AF9 /* StoryboardHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411AE1F14602600A84AF9 /* StoryboardHelper.swift */,
+			);
+			path = StoryboardHelper;
+			sourceTree = "<group>";
+		};
+		3D2411AF1F14602600A84AF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B01F14602600A84AF9 /* PokemonTableViewController */,
+				3D2411B21F14602600A84AF9 /* PokemonViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D2411B01F14602600A84AF9 /* PokemonTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B11F14602600A84AF9 /* PokemonTableViewController.swift */,
+			);
+			name = PokemonTableViewController;
+			path = DemoTableViewController;
+			sourceTree = "<group>";
+		};
+		3D2411B21F14602600A84AF9 /* PokemonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B31F14602600A84AF9 /* Cells */,
+				3D2411B61F14602600A84AF9 /* PokemonViewController.swift */,
+			);
+			name = PokemonViewController;
+			path = DemoViewController;
+			sourceTree = "<group>";
+		};
+		3D2411B31F14602600A84AF9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B41F14602600A84AF9 /* PokemonCollectionViewCell.swift */,
+				3D2411B51F14602600A84AF9 /* PokemonCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3D2411B71F14602600A84AF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B81F14602600A84AF9 /* AnimatingBarButton */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D2411B81F14602600A84AF9 /* AnimatingBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411B91F14602600A84AF9 /* AnimationBarButton.swift */,
+				3D2411BA1F14602600A84AF9 /* Animations */,
+			);
+			path = AnimatingBarButton;
+			sourceTree = "<group>";
+		};
+		3D2411BA1F14602600A84AF9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411BB1F14602600A84AF9 /* Rotatable.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3D3106D31F0ECDDA001BADA6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411AC1F14602600A84AF9 /* PokemonDataSource.swift */,
+				3DE98E7A1F0CE44200AD70A1 /* Assets.xcassets */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		3DA468571F0E2B7700EA56F9 /* PoKeyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3DA468621F0E2BA400EA56F9 /* PoKeyKeyboard.entitlements */,
+				3DA468581F0E2B7700EA56F9 /* KeyboardViewController.swift */,
+				3DA4685A1F0E2B7700EA56F9 /* Info.plist */,
+				3D3106D11F0ECD87001BADA6 /* PokemonCollectionView.swift */,
+				3D3663831F0EDECB007EE5F3 /* PokemonCollectionCell.swift */,
+				3D26C2661F10061D001942ED /* PokemonCollectionHeader.swift */,
+			);
+			path = PoKeyKeyboard;
+			sourceTree = SOURCE_ROOT;
+		};
+		3DE98E671F0CE44200AD70A1 = {
+			isa = PBXGroup;
+			children = (
+				3D3106D31F0ECDDA001BADA6 /* Common */,
+				3DE98E721F0CE44200AD70A1 /* PoKey */,
+				3DA468571F0E2B7700EA56F9 /* PoKeyKeyboard */,
+				3DE98E871F0CE44200AD70A1 /* PoKeyTests */,
+				3DE98E921F0CE44200AD70A1 /* PoKeyUITests */,
+				3DE98E711F0CE44200AD70A1 /* Products */,
+				C52329651030B76A3300E803 /* Pods */,
+				085BE659A8819AB7B7BED48E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DE98E711F0CE44200AD70A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE98E701F0CE44200AD70A1 /* PoKey.app */,
+				3DE98E841F0CE44200AD70A1 /* PoKeyTests.xctest */,
+				3DE98E8F1F0CE44200AD70A1 /* PoKeyUITests.xctest */,
+				3DA468561F0E2B7700EA56F9 /* PoKeyKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE98E721F0CE44200AD70A1 /* PoKey */ = {
+			isa = PBXGroup;
+			children = (
+				3D2411A71F14602600A84AF9 /* Constants */,
+				3D2411A91F14602600A84AF9 /* Helpers */,
+				3D2411AF1F14602600A84AF9 /* ViewControllers */,
+				3D2411B71F14602600A84AF9 /* Views */,
+				3DA468511F0E264400EA56F9 /* PoKey.entitlements */,
+				3DE98E731F0CE44200AD70A1 /* AppDelegate.swift */,
+				3DE98E771F0CE44200AD70A1 /* Main.storyboard */,
+				3DE98E7C1F0CE44200AD70A1 /* LaunchScreen.storyboard */,
+				3DE98E7F1F0CE44200AD70A1 /* Info.plist */,
+			);
+			path = PoKey;
+			sourceTree = "<group>";
+		};
+		3DE98E871F0CE44200AD70A1 /* PoKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE98E881F0CE44200AD70A1 /* PoKeyTests.swift */,
+				3DE98E8A1F0CE44200AD70A1 /* Info.plist */,
+			);
+			path = PoKeyTests;
+			sourceTree = "<group>";
+		};
+		3DE98E921F0CE44200AD70A1 /* PoKeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE98E931F0CE44200AD70A1 /* PoKeyUITests.swift */,
+				3DE98E951F0CE44200AD70A1 /* Info.plist */,
+			);
+			path = PoKeyUITests;
+			sourceTree = "<group>";
+		};
+		C52329651030B76A3300E803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56BFE6921BD7B75A7A9C582E /* Pods-PoKey.debug.xcconfig */,
+				B15A14E8AE8527F337815992 /* Pods-PoKey.release.xcconfig */,
+				08DBE579B096AC2F6829594C /* Pods-PoKeyTests.debug.xcconfig */,
+				F60BB9A5A77EBD2419DDC1FB /* Pods-PoKeyTests.release.xcconfig */,
+				A024511F3396400027294C5A /* Pods-PoKeyUITests.debug.xcconfig */,
+				E5E29667EEAADDFAF48BAF06 /* Pods-PoKeyUITests.release.xcconfig */,
+				B1C76506635AEFE5DF6922DE /* Pods-PoKeyKeyboard.debug.xcconfig */,
+				5F07A58E30689192BA47D186 /* Pods-PoKeyKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA468551F0E2B7700EA56F9 /* PoKeyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA4685E1F0E2B7700EA56F9 /* Build configuration list for PBXNativeTarget "PoKeyKeyboard" */;
+			buildPhases = (
+				F6C5B752885F7FD406821D3C /* [CP] Check Pods Manifest.lock */,
+				3DA468521F0E2B7700EA56F9 /* Sources */,
+				3DA468531F0E2B7700EA56F9 /* Frameworks */,
+				3DA468541F0E2B7700EA56F9 /* Resources */,
+				A9BFC4AFCD48D495AF574DC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoKeyKeyboard;
+			productName = PoKeyKeyboard;
+			productReference = 3DA468561F0E2B7700EA56F9 /* PoKeyKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3DE98E6F1F0CE44200AD70A1 /* PoKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE98E981F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKey" */;
+			buildPhases = (
+				4B454BA57AE845B2CCE14648 /* [CP] Check Pods Manifest.lock */,
+				3DE98E6C1F0CE44200AD70A1 /* Sources */,
+				3DE98E6D1F0CE44200AD70A1 /* Frameworks */,
+				3DE98E6E1F0CE44200AD70A1 /* Resources */,
+				E60A813358BF092CAE2D7607 /* [CP] Embed Pods Frameworks */,
+				8B83937E4C7D56F158DC9EE1 /* [CP] Copy Pods Resources */,
+				3DA468611F0E2B7700EA56F9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA4685C1F0E2B7700EA56F9 /* PBXTargetDependency */,
+			);
+			name = PoKey;
+			productName = PoKey;
+			productReference = 3DE98E701F0CE44200AD70A1 /* PoKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DE98E831F0CE44200AD70A1 /* PoKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE98E9B1F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKeyTests" */;
+			buildPhases = (
+				C4F931BCF12A963E1AA773EE /* [CP] Check Pods Manifest.lock */,
+				3DE98E801F0CE44200AD70A1 /* Sources */,
+				3DE98E811F0CE44200AD70A1 /* Frameworks */,
+				3DE98E821F0CE44200AD70A1 /* Resources */,
+				5A9271ECC21C453D08B3DFCF /* [CP] Embed Pods Frameworks */,
+				B505F266BA38526C60BA3201 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE98E861F0CE44200AD70A1 /* PBXTargetDependency */,
+			);
+			name = PoKeyTests;
+			productName = PoKeyTests;
+			productReference = 3DE98E841F0CE44200AD70A1 /* PoKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DE98E8E1F0CE44200AD70A1 /* PoKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE98E9E1F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKeyUITests" */;
+			buildPhases = (
+				0A5C08591CAF61B96CF43E67 /* [CP] Check Pods Manifest.lock */,
+				3DE98E8B1F0CE44200AD70A1 /* Sources */,
+				3DE98E8C1F0CE44200AD70A1 /* Frameworks */,
+				3DE98E8D1F0CE44200AD70A1 /* Resources */,
+				F912589DACBD6232F9D1E1BD /* [CP] Embed Pods Frameworks */,
+				971161AD6D4E2A7078DFE3F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE98E911F0CE44200AD70A1 /* PBXTargetDependency */,
+			);
+			name = PoKeyUITests;
+			productName = PoKeyUITests;
+			productReference = 3DE98E8F1F0CE44200AD70A1 /* PoKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DE98E681F0CE44200AD70A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vladimir;
+				TargetAttributes = {
+					3DA468551F0E2B7700EA56F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3DE98E6F1F0CE44200AD70A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3DE98E831F0CE44200AD70A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DE98E6F1F0CE44200AD70A1;
+					};
+					3DE98E8E1F0CE44200AD70A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DE98E6F1F0CE44200AD70A1;
+					};
+				};
+			};
+			buildConfigurationList = 3DE98E6B1F0CE44200AD70A1 /* Build configuration list for PBXProject "PoKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DE98E671F0CE44200AD70A1;
+			productRefGroup = 3DE98E711F0CE44200AD70A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DE98E6F1F0CE44200AD70A1 /* PoKey */,
+				3DA468551F0E2B7700EA56F9 /* PoKeyKeyboard */,
+				3DE98E831F0CE44200AD70A1 /* PoKeyTests */,
+				3DE98E8E1F0CE44200AD70A1 /* PoKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA468541F0E2B7700EA56F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D28C7B21F14DAD8001E2FB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E6E1F0CE44200AD70A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2411C21F14602600A84AF9 /* PokemonCollectionViewCell.xib in Resources */,
+				3DE98E7E1F0CE44200AD70A1 /* LaunchScreen.storyboard in Resources */,
+				3DE98E7B1F0CE44200AD70A1 /* Assets.xcassets in Resources */,
+				3DE98E791F0CE44200AD70A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E821F0CE44200AD70A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E8D1F0CE44200AD70A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A5C08591CAF61B96CF43E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B454BA57AE845B2CCE14648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A9271ECC21C453D08B3DFCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKeyTests/Pods-PoKeyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B83937E4C7D56F158DC9EE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKey/Pods-PoKey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971161AD6D4E2A7078DFE3F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKeyUITests/Pods-PoKeyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BFC4AFCD48D495AF574DC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKeyKeyboard/Pods-PoKeyKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B505F266BA38526C60BA3201 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKeyTests/Pods-PoKeyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F931BCF12A963E1AA773EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60A813358BF092CAE2D7607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKey/Pods-PoKey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C5B752885F7FD406821D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F912589DACBD6232F9D1E1BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoKeyUITests/Pods-PoKeyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA468521F0E2B7700EA56F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA468591F0E2B7700EA56F9 /* KeyboardViewController.swift in Sources */,
+				3D2411C61F1460AF00A84AF9 /* PokemonDataSource.swift in Sources */,
+				3D3106D21F0ECD87001BADA6 /* PokemonCollectionView.swift in Sources */,
+				3D3663841F0EDECB007EE5F3 /* PokemonCollectionCell.swift in Sources */,
+				3D26C2671F10061D001942ED /* PokemonCollectionHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E6C1F0CE44200AD70A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2411C11F14602600A84AF9 /* PokemonCollectionViewCell.swift in Sources */,
+				3DE98E741F0CE44200AD70A1 /* AppDelegate.swift in Sources */,
+				3D2411BF1F14602600A84AF9 /* StoryboardHelper.swift in Sources */,
+				3D2411C41F14602600A84AF9 /* AnimationBarButton.swift in Sources */,
+				3D2411BD1F14602600A84AF9 /* CollectionViewHelper.swift in Sources */,
+				3D2411C31F14602600A84AF9 /* PokemonViewController.swift in Sources */,
+				3D2411BC1F14602600A84AF9 /* Images.swift in Sources */,
+				3D2411BE1F14602600A84AF9 /* PokemonDataSource.swift in Sources */,
+				3D2411C01F14602600A84AF9 /* PokemonTableViewController.swift in Sources */,
+				3D2411C51F14602600A84AF9 /* Rotatable.swift in Sources */,
+				3DFC47E81F150B9E00C02E0B /* Hack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E801F0CE44200AD70A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE98E891F0CE44200AD70A1 /* PoKeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE98E8B1F0CE44200AD70A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE98E941F0CE44200AD70A1 /* PoKeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA4685C1F0E2B7700EA56F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA468551F0E2B7700EA56F9 /* PoKeyKeyboard */;
+			targetProxy = 3DA4685B1F0E2B7700EA56F9 /* PBXContainerItemProxy */;
+		};
+		3DE98E861F0CE44200AD70A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE98E6F1F0CE44200AD70A1 /* PoKey */;
+			targetProxy = 3DE98E851F0CE44200AD70A1 /* PBXContainerItemProxy */;
+		};
+		3DE98E911F0CE44200AD70A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE98E6F1F0CE44200AD70A1 /* PoKey */;
+			targetProxy = 3DE98E901F0CE44200AD70A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DE98E771F0CE44200AD70A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE98E781F0CE44200AD70A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE98E7C1F0CE44200AD70A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE98E7D1F0CE44200AD70A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA4685F1F0E2B7700EA56F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C76506635AEFE5DF6922DE /* Pods-PoKeyKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoKeyKeyboard/PoKeyKeyboard.entitlements;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKey.PoKeyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DA468601F0E2B7700EA56F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F07A58E30689192BA47D186 /* Pods-PoKeyKeyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoKeyKeyboard/PoKeyKeyboard.entitlements;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKey.PoKeyKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DE98E961F0CE44200AD70A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DE98E971F0CE44200AD70A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DE98E991F0CE44200AD70A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BFE6921BD7B75A7A9C582E /* Pods-PoKey.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PoKey/PoKey.entitlements;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DE98E9A1F0CE44200AD70A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15A14E8AE8527F337815992 /* Pods-PoKey.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PoKey/PoKey.entitlements;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DE98E9C1F0CE44200AD70A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DBE579B096AC2F6829594C /* Pods-PoKeyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoKey.app/PoKey";
+			};
+			name = Debug;
+		};
+		3DE98E9D1F0CE44200AD70A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60BB9A5A77EBD2419DDC1FB /* Pods-PoKeyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoKey.app/PoKey";
+			};
+			name = Release;
+		};
+		3DE98E9F1F0CE44200AD70A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A024511F3396400027294C5A /* Pods-PoKeyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PoKey;
+			};
+			name = Debug;
+		};
+		3DE98EA01F0CE44200AD70A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E29667EEAADDFAF48BAF06 /* Pods-PoKeyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = PoKeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.PoKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PoKey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA4685E1F0E2B7700EA56F9 /* Build configuration list for PBXNativeTarget "PoKeyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA4685F1F0E2B7700EA56F9 /* Debug */,
+				3DA468601F0E2B7700EA56F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE98E6B1F0CE44200AD70A1 /* Build configuration list for PBXProject "PoKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE98E961F0CE44200AD70A1 /* Debug */,
+				3DE98E971F0CE44200AD70A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE98E981F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE98E991F0CE44200AD70A1 /* Debug */,
+				3DE98E9A1F0CE44200AD70A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE98E9B1F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE98E9C1F0CE44200AD70A1 /* Debug */,
+				3DE98E9D1F0CE44200AD70A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE98E9E1F0CE44200AD70A1 /* Build configuration list for PBXNativeTarget "PoKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE98E9F1F0CE44200AD70A1 /* Debug */,
+				3DE98EA01F0CE44200AD70A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DE98E681F0CE44200AD70A1 /* Project object */;
+}

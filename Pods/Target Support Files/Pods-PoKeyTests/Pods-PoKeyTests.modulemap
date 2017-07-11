@@ -1,0 +1,6 @@
+framework module Pods_PoKeyTests {
+  umbrella header "Pods-PoKeyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
