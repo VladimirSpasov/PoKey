@@ -93,7 +93,7 @@ class PokemonDataSource{
 
     func generateIds(){
         for _ in 1...10{
-            ids.append(Int(arc4random_uniform(810) + 1))
+            ids.append(Int(arc4random_uniform(720) + 1))
         }
 
         let defaults = UserDefaults(suiteName: "group.PoKey")
